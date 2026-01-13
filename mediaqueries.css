@@ -1,0 +1,369 @@
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+        padding: 1rem;
+    }
+    nav {
+        height: 10vh;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .nav-links {
+        font-size: 1.2rem;
+        gap: 1rem;
+    }
+    section {
+        padding: 1rem 1rem;
+    }
+    #profile {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .section-pic-container {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 1rem;
+    }
+    .section-text-h1 {
+        font-size: 2rem;
+    }
+    .section-text-l1 {
+        font-size: 1.2rem;
+    }
+    .section-text-title {
+        font-size: 1.8rem;
+    }
+    .about, .statement {
+        text-align: center;
+    }
+    .p1 {
+        margin: 1rem auto;
+        padding: 1rem;
+        max-width: 100%;
+    }
+    .nav2 ul {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+    .nav2 li {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.5rem;
+    }
+    .icon-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .card1, .card2, .card3 {
+        width: 100%;
+        text-align: center;
+    }
+    .contacts1 ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .contacts1 i {
+        font-size: 2rem;
+    }
+    .contacts1 .email-text {
+        display: none;
+    }
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+/* Small devices (tablets, 577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 1.5rem;
+    }
+    nav {
+        height: 12vh;
+    }
+    .logo {
+        font-size: 1.8rem;
+    }
+    .nav-links {
+        font-size: 1.4rem;
+        gap: 1.5rem;
+    }
+    section {
+        padding: 1.5rem 2rem;
+    }
+    #profile {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .section-pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 1.5rem;
+    }
+    .section-text-h1 {
+        font-size: 2.5rem;
+    }
+    .section-text-l1 {
+        font-size: 1.4rem;
+    }
+    .section-text-title {
+        font-size: 2rem;
+    }
+    .about, .statement {
+        text-align: center;
+    }
+    .p1 {
+        margin: 1.5rem auto;
+        padding: 1.5rem;
+        max-width: 90%;
+    }
+    .nav2 ul {
+        gap: 1rem;
+    }
+    .nav2 li {
+        font-size: 0.9rem;
+    }
+    .icon-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .card1, .card2, .card3 {
+        width: 100%;
+        text-align: center;
+    }
+    .contacts1 ul {
+        gap: 2rem;
+    }
+    .contacts1 i {
+        font-size: 2.2rem;
+    }
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+/* Medium devices (tablets, 769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        font-size: 17px;
+        padding: 2rem;
+    }
+    nav {
+        height: 15vh;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    .nav-links {
+        font-size: 1.5rem;
+        gap: 2rem;
+    }
+    section {
+        padding: 2rem 3rem;
+    }
+    #profile {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .section-pic-container {
+        width: 300px;
+        height: 300px;
+    }
+    .section-text-h1 {
+        font-size: 3rem;
+    }
+    .section-text-l1 {
+        font-size: 1.5rem;
+    }
+    .section-text-title {
+        font-size: 2.2rem;
+    }
+    .about, .statement {
+        text-align: end;
+    }
+    .p1 {
+        margin: 2rem auto;
+        padding: 2rem;
+        max-width: 800px;
+    }
+    .nav2 ul {
+        gap: 1.5rem;
+    }
+    .nav2 li {
+        font-size: 1rem;
+    }
+    .icon-container {
+        gap: 3rem;
+    }
+    .card1, .card2, .card3 {
+        width: calc(33.333% - 2rem);
+    }
+    .contacts1 ul {
+        gap: 2.5rem;
+    }
+    .contacts1 i {
+        font-size: 2.5rem;
+    }
+    #desktop-nav {
+        display: flex;
+    }
+    #hamburger-nav {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 993px to 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    body {
+        font-size: 18px;
+        padding: 2rem;
+    }
+    header, main, footer {
+        max-width: 1100px;
+        margin: auto;
+    }
+    nav {
+        height: 17vh;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    .nav-links {
+        font-size: 1.5rem;
+        gap: 2rem;
+    }
+    section {
+        padding: 2rem 4rem;
+    }
+    #profile {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .section-pic-container {
+        width: 350px;
+        height: 350px;
+    }
+    .section-text-h1 {
+        font-size: 3.5rem;
+    }
+    .section-text-l1 {
+        font-size: 1.6rem;
+    }
+    .section-text-title {
+        font-size: 2.5rem;
+    }
+    .about, .statement {
+        text-align: end;
+    }
+    .p1 {
+        margin: 2rem auto;
+        padding: 2rem;
+        max-width: 900px;
+    }
+    .nav2 ul {
+        gap: 2rem;
+    }
+    .nav2 li {
+        font-size: 1.1rem;
+    }
+    .icon-container {
+        gap: 4rem;
+    }
+    .card1, .card2, .card3 {
+        width: calc(33.333% - 2rem);
+    }
+    .contacts1 ul {
+        gap: 3rem;
+    }
+    .contacts1 i {
+        font-size: 2.5rem;
+    }
+    #desktop-nav {
+        display: flex;
+    }
+    #hamburger-nav {
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1201px and up) */
+@media (min-width: 1201px) {
+    body {
+        font-size: 20px;
+        padding: 2.5rem;
+    }
+    header, main, footer {
+        max-width: 1200px;
+        margin: auto;
+    }
+    nav {
+        height: 17vh;
+    }
+    .logo {
+        font-size: 2.2rem;
+    }
+    .nav-links {
+        font-size: 1.6rem;
+        gap: 2.5rem;
+    }
+    section {
+        padding: 2rem 6rem;
+    }
+    #profile {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .section-pic-container {
+        width: 400px;
+        height: 400px;
+    }
+    .section-text-h1 {
+        font-size: 4rem;
+    }
+    .section-text-l1 {
+        font-size: 1.8rem;
+    }
+    .section-text-title {
+        font-size: 2.8rem;
+    }
+    .about, .statement {
+        text-align: end;
+    }
+    .p1 {
+        margin: 2rem auto;
+        padding: 2rem;
+        max-width: 1000px;
+    }
+    .nav2 ul {
+        gap: 2.5rem;
+    }
+    .nav2 li {
+        font-size: 1.2rem;
+    }
+    .icon-container {
+        gap: 5rem;
+    }
+    .card1, .card2, .card3 {
+        width: calc(33.333% - 2rem);
+    }
+    .contacts1 ul {
+        gap: 3.5rem;
+    }
+    .contacts1 i {
+        font-size: 2.8rem;
+    }
+    #desktop-nav {
+        display: flex;
+    }
+    #hamburger-nav {
+        display: none;
+    }
+}

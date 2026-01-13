@@ -1,0 +1,112 @@
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    transition: all 0.3s ease-in-out;
+   
+
+    
+   
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+p {
+    margin-bottom: 1.5rem;
+}
+
+a, .btn {
+   
+    transition:all 300ms
+}
+nav, .nav-links {
+    display: flex;
+    list-style: none;
+    border: #000 solid 1px;
+    
+}
+
+   
+nav {
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    
+}
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+
+
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(56,53,53);
+}
+
+.logo { font-size: 2rem; color: #000; }
+.logo:hover { cursor: default; }
+#hamburger-nav { display: none; }
+.menu-links { display: none; position: relative; }
+.hamburger-menu { position: relative; display: inline-block; }
+.hamburger-icon { display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 30px; height: 24px; cursor: pointer; }
+
+/* main layout */
+section { padding: 2rem 6rem; box-sizing: border-box; min-height: fit-content; }
+
+#profile { display: flex; gap: 2rem; align-items: center; flex-wrap: wrap; }
+.section-pic-container { display: flex; margin: 0 auto; width: 100%; max-width: 400px; height: auto; }
+#profile-pic { width: 100%; height: auto; display: block; border-radius: 8px; }
+
+.section-text-l1 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 500; font-size: larger; }
+.section-btn a { margin: auto; padding: 10px; background-color: #0e0e0f; color: black; border-radius: 40px; display: inline-block; }
+.about { text-align: end; }
+.statement { text-align: end; }
+
+.p1 { border: #e6e0e0 solid 1px; margin: 2rem auto; border-radius: 20px; padding: 2rem; max-width: 1000px; }
+
+.nav2 { border: 2px solid #374151; border-radius: 16px; padding: 0.5rem 1rem; margin: 1.5rem auto; max-width: 100%; width: auto; }
+.nav2 ul { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; align-items: center; list-style: none; padding: 0; margin: 0; }
+.nav2 li { background: #f3f4f6; border-radius: 20px; font-weight: 500; color: #374151; transition: all 0.3s; padding: 0.4rem 0.8rem; }
+.nav2 li:hover { background: #e5e7eb; transform: translateY(-2px); }
+
+.icon-container { display: flex; gap: 2rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; }
+
+.contacts1 { display: flex; justify-content: center; align-items: center; margin: 2rem auto; width: 100%; }
+.contacts1 ul { display: flex; gap: 3rem; list-style: none; padding: 0; }
+.contacts1 i { font-size: 2.5rem; color: #f0f3f5; transition: all 0.3s ease; }
+.contacts1 i:hover { transform: translateY(-5px); color: #f1e9e9; }
+.contacts1 a { display: inline-flex; align-items: center; gap: 0.6rem; color: inherit; text-decoration: none; }
+.contacts1 .email-text { font-size: 1rem; color: #fffafa; font-weight: 500; white-space: nowrap; }
+.card1 h2 { color: #eeab2e;}
+.card2 h2 { color: #eeab2e;}
+.card3 h2 { color: #eeab2e;}
+.section-text-h1 {color: #eeab2e;}
+.section-title {color: #eeab2e;}
+#about {
+    border: #034ada;
+}
+
+@media (max-width: 520px) { .contacts1 .email-text { display: none; } .contacts1 i { font-size: 2rem; } }
+
+main { background-color: rgb(18, 18, 18); color: #e5e7eb; }
+.about { color: hsl(40, 88%, 53%); }
+
+/* Responsive tweaks */
+@media screen and (max-width: 1200px) { #desktop-nav { display: none; } #hamburger-nav { display: flex; } section { margin: 0 5rem; } .icon-container { gap: 5rem; } }
+@media screen and (max-width: 768px) { section { margin: 0 2rem; } #profile { flex-direction: column; height: auto; } .section-pic-container { width: 275px; height: 275px; margin: 0 auto 2rem; } .about, .statement { text-align: center; } .p1 { margin: 2rem auto; padding: 1.5rem; } .icon-container { flex-direction: column; gap: 2rem; } }
+@media screen and (max-width: 480px) { section { margin: 0 1rem; } .nav2 ul { gap: 0.8rem; } .nav2 li { font-size: 0.8rem; } .section-pic-container { width: 200px; height: 200px; } .contacts1 ul { gap: 1.5rem; } .contacts1 i { font-size: 2rem; } }
